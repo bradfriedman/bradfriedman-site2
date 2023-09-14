@@ -1,0 +1,154 @@
+# Site
+repository: bradfriedman/bradfriedman-site2
+favicon: images/bf_favicon.png
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Brad Friedman
+title: Engineering Leader, AI Expert
+email: brad.friedman@gmail.com
+website: bradfriedman.dev
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+twitter_username: brad_friedman
+github_username: bradfriedman
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+instagram_username: __brad_friedman__
+linkedin_username: bradleyjfriedman
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+google_analytics_4: "G-BVKFYPGFNW"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/brad.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, I'm Brad! I'm a software engineer and team leader. I specialize in leading full-stack web service teams both as senior IC and manager. My passion is generative AI and the multimodal application of LLMS.
+
+  As an IC, my expertise is in backend web services written in <mark>Python</mark>, built on <mark>AWS</mark> or <mark>GCP</mark> cloud infrastructure.
+
+  I believe generative AI will radically change the world and will be in the service of humanity. It's our duty as technologists to harness and deploy nonbiological intelligence <i>responsibly</i> to solve human problems.
+
+  Open to interesting work around generative AI and its business applications.
+
+content:
+  - title: Projects # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: top-middle
+        title: Convobot
+        # link: github.com/sproogen
+        # link_text: Project Website
+        additional_links:
+          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
+          #   icon: fab fa-github
+          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
+        quote: >
+          A fully-customizable conversation bot for Raspberry Pi
+        description: | # this will include new lines to allow paragraphs
+          I created this project to act as a multi-purpose AI companion that responds with any voice you like (say, Barack Obama's) about any topic you like (say, help with calculus homework). It's incredibly flexible, powerful, and fun!
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Remitly
+        link: remitly.com
+        # link_text: boringcompany.com
+        sub_title: Senior Engineering Manager
+        caption: 2022 - 2023
+        quote: >
+          Building world-class international remittance experiences
+        description: | # this will include new lines to allow paragraphs
+          Responsible for the B2B engineering team, empowering other businesses to tap into Remitly's vast, established remittance networks.
+      - layout: left
+        title: Zillow
+        link: https://www.zillow.com/z/corp/about/
+        link_text: zillow.com
+        sub_title: Senior Engineering Manager
+        caption: 2019 - 2022
+        quote: >
+          Zillow Group is reimagining real estate to make it easier to unlock life’s next chapter.
+        description: | # this will include new lines to allow paragraphs
+          Responsible for the Zillow Offers growth team, providing much of the iBuying experience for sellers on the platform
+      - layout: left
+        title: Alphabet (Google) - EngEdu
+        link: https://about.google/
+        link_text: about.google
+        sub_title: Senior Engineering Manager
+        caption: 2017 - 2019
+        quote: >
+          Google's Engineering Education group is responsible for providing learning materials both internally and externally about Google's products.
+        description: | # this will include new lines to allow paragraphs
+          Administrated the Seattle/Kirkland Engineering Residency Program, mentoring and leading cohorts of 25 residents through a year-long internship, while writing software to support this program.
+      - layout: left
+        title: Alphabet (Google) - Cloud Endpoints
+        link: https://about.google/
+        link_text: about.google
+        sub_title: Senior Software Engineer
+        caption: 2015 - 2017
+        quote: >
+          The Cloud Endpoints team is part of the Google Cloud Platform organization
+        description: | # this will include new lines to allow paragraphs
+          Designed and built developer tools for Python developers wishing to publish their APIs via Google App Engine
+
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Princeton University
+        sub_title: BSE, Computer Science
+        quote: >
+          In the Nation's Service and the Service of Humanity
+        description: | # this will include new lines to allow paragraphs
+          During my time at Princeton, I expanded on my childhood interests in software by learning the foundational tenets of computer science and software engineering.
+
+          My senior thesis was on autonomous vehicle navigation.
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      Alongside software engineering and artificial intelligence, some of my other interests and hobbies are:
+      - Supporting [Seattle Sounders FC](https://www.soundersfc.com)
+      - PC Gaming
+      - Electronic Dance Music
+      - Boxing
+
+# Footer
+footer_show_references: false
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: bradfriedman/modern-resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+  - jekyll-seo-tag
