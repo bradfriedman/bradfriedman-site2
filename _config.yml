@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Brad Friedman
-title: Engineering Leader, AI Enthusiast
+title: Engineering Leader, AI Expert, Effective Accelerationist (e/acc)
 email: brad.friedman@gmail.com
 website: bradfriedman.dev
 
@@ -31,9 +31,9 @@ linkedin_username: bradleyjfriedman
 
 # Additional icon links
 additional_links:
-  - title: itsgoingto.be
-    icon: fas fa-globe
-    url: https://www.itsgoingto.be
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -52,25 +52,26 @@ about_content: | # this will include new lines to allow paragraphs
 
   As an IC, my expertise is in backend web services written in <mark>Python</mark>, built on <mark>AWS</mark> or <mark>GCP</mark> cloud infrastructure.
 
+  I'm a believer in [Effective Accelerationism](https://effectiveaccelerationism.substack.com/) (e/acc) and [Techno-Optimism](https://twitter.com/pmarca/status/1713930459779129358). I believe AI will radically change the world and will be in the service of humanity.
+
+  Open to interesting work around generative AI and its myriad business applications.
+
 content:
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
+        title: Convobot
+        # link: github.com/sproogen
         # link_text: Project Website
         additional_links:
-          - title: sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
           # - title:  Github page for project (eg. sproogen/modern-resume-theme)
           #   icon: fab fa-github
           #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
         quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
+          A fully-customizable conversation bot for Raspberry Pi
         description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
+          I created this project to act as a multi-purpose AI companion that responds with any voice you like (say, Barack Obama's) about any topic you like (say, help with calculus homework). It's incredibly flexible, powerful, and fun!
 
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
@@ -121,7 +122,6 @@ content:
     content:
       - layout: left
         title: Princeton University
-        caption: 2001 - 2005
         sub_title: BSE, Computer Science
         quote: >
           In the Nation's Service and the Service of Humanity
@@ -133,12 +133,11 @@ content:
   - title: A Little More About Me
     layout: text
     content: | # this will include new lines to allow paragraphs
-      Alongside my interests in software engineering and artificial intelligence, some of my other interests and hobbies are:
-      - Gaming
+      Alongside software engineering and artificial intelligence, some of my other interests and hobbies are:
       - Supporting [Seattle Sounders FC](https://www.soundersfc.com)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+      - PC Gaming
+      - Electronic Dance Music
+      - Boxing
 
 # Footer
 footer_show_references: false
