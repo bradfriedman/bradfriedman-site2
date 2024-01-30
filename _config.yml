@@ -48,11 +48,11 @@ google_analytics_4: "G-BVKFYPGFNW"
 # about_title: About Me
 about_profile_image: images/brad.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, I'm Brad! I'm a software engineer and team leader. I specialize in leading full-stack web service teams both as senior IC and manager. My passion is generative AI and the multimodal application of LLMS.
+  Hi, I'm Brad! I'm a software engineer and team leader. I specialize in leading full-stack web service teams both as senior IC and manager. My passion is generative AI and the multimodal application of LLMs.
 
   As an IC, my expertise is in backend web services written in <mark>Python</mark>, built on <mark>AWS</mark> or <mark>GCP</mark> cloud infrastructure.
 
-  I believe generative AI will radically change the world and will be in the service of humanity. It's our duty as technologists to harness and deploy nonbiological intelligence <i>responsibly</i> to solve human problems.
+  I believe generative AI will radically change the world and will be in the service of humanity. It's our duty as technologists to harness and deploy nonbiological intelligence <i>responsibly</i> to solve human problems. We can accelerate this amazing technology while also ensuring the benefit is equitable. The rising tide of AI should raise all boats.
 
   Open to interesting work around generative AI and its business applications.
 
